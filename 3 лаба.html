@@ -4,21 +4,21 @@
 <script>
 var Today = new Date();
 var DayOfTheWeek = Today.getDay();
-var DayOfTheWeeks = ['воскресенье', 'понедельник', 'вторник',
-'среда', 'четерг', 'пятница', 'суббота'];
+var DayOfTheWeeks = ['РІРѕСЃРєСЂРµСЃРµРЅСЊРµ', 'РїРѕРЅРµРґРµР»СЊРЅРёРє', 'РІС‚РѕСЂРЅРёРє',
+'СЃСЂРµРґР°', 'С‡РµС‚РµСЂРі', 'РїСЏС‚РЅРёС†Р°', 'СЃСѓР±Р±РѕС‚Р°'];
 
 
 var d=new Date();
 var day=d.getDate();
 var month=d.getMonth() + 1;
 var year=d.getFullYear();
-document.write('<H1>Дата - ', day + "." + month + "." + year);
+document.write('<H1>Р”Р°С‚Р° - ', day + "." + month + "." + year);
 
 
 
 
 
-document.write('<H1>Сегодня – ', DayOfTheWeeks[DayOfTheWeek],
+document.write('<H1>РЎРµРіРѕРґРЅСЏ вЂ“ ', DayOfTheWeeks[DayOfTheWeek],
 '</H1>');
 </script>
 </body>
@@ -27,23 +27,23 @@ document.write('<H1>Сегодня – ', DayOfTheWeeks[DayOfTheWeek],
 
 <body>
 <script>
-document.write('<H1>Выберите цвет фона страницы</H1>');
+document.write('<H1>Р’С‹Р±РµСЂРёС‚Рµ С†РІРµС‚ С„РѕРЅР° СЃС‚СЂР°РЅРёС†С‹</H1>');
 </script>
 <input type="radio" name="R"
-onclick="document.bgColor='white'">Белый<br/>
+onclick="document.bgColor='white'">Р‘РµР»С‹Р№<br/>
 <input type="radio" name="R"
-onclick="document.bgColor='lightblue'">Светло-синий<br/>
+onclick="document.bgColor='lightblue'">РЎРІРµС‚Р»Рѕ-СЃРёРЅРёР№<br/>
 <input type="radio" name="R"
-onclick="document.bgColor='lightyellow'">Светло-желтый<br/>
+onclick="document.bgColor='lightyellow'">РЎРІРµС‚Р»Рѕ-Р¶РµР»С‚С‹Р№<br/>
 
 
 <body>
 <img src=" https://habrastorage.org/files/e52/8f0/8cd/e528f08cd83a4585a6f092776f535678.jpg"
- title="Всплывающая подсказка github"><br/>
+ title="Р’СЃРїР»С‹РІР°СЋС‰Р°СЏ РїРѕРґСЃРєР°Р·РєР° github"><br/>
 <img src="https://i.ytimg.com/vi/jpxJG6oz3LE/maxresdefault.jpg"
 
 onmouseover="document.getElementById('result').innerHTML =
-'Всплывающая подсказка baku';"
+'Р’СЃРїР»С‹РІР°СЋС‰Р°СЏ РїРѕРґСЃРєР°Р·РєР° baku';"
 onmouseout="document.getElementById('result').innerHTML =
 '';"><br/>
 <div id="result"></div>
@@ -57,12 +57,12 @@ if (!isNaN(a) && !isNaN(b)) {
 var c = a + b;
 alert(c);
 } else {
-alert("Введите числа!");
+alert("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Р°!");
 }
 }
 </script>
 <input id="a" type="text"><br>
 <input id="b" type="text"><br>
-<input type="button" value="сумма"
+<input type="button" value="СЃСѓРјРјР°"
 onclick="func();"><br>
 </body>
